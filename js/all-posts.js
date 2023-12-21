@@ -42,6 +42,8 @@ function getPost(id) {
   console.log(id);
 }
 
+// Search
+
 function search() {
   const searchWords = searchInput.value.toLowerCase();
 
