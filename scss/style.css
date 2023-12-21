@@ -516,6 +516,15 @@ main .buss-category .cards a .card p {
   font-style: normal;
   font-weight: 400;
 }
+main .buss-category .cards a .card .job {
+  color: var(--Black, #232536);
+  /* Heading H2 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 133.333% */
+}
 
 main .search-input {
   padding: 64px 0 54px;

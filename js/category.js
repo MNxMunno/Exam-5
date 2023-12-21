@@ -26,7 +26,7 @@ function pushPosts(user) {
                 <img src="${u.image}" alt="">
               </div>
               <div class="card">
-                <p class="category">${u.category}</p>
+                <p class="purple">${u.category}</p>
                 <h2>${u.title}</h2>
                 <p>${u.description}</p>
                 <p class="job">${u.author}</p>
