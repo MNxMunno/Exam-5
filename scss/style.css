@@ -471,16 +471,20 @@ main .buss-category .cards {
   gap: 32px;
   flex-wrap: wrap;
 }
-main .buss-category .cards .card {
+main .buss-category .cards a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+}
+main .buss-category .cards a .card-img img {
+  width: 447px;
+  height: 312px;
+}
+main .buss-category .cards a .card {
   padding-bottom: 64px;
 }
-main .buss-category .cards .card .img {
-  max-width: 547px;
-}
-main .buss-category .cards .card .img img {
-  width: 100%;
-}
-main .buss-category .cards .card .purple {
+main .buss-category .cards a .card .purple {
   color: var(--Purple, #592ea9);
   /* Cap 1 */
   font-family: Inter;
@@ -491,7 +495,7 @@ main .buss-category .cards .card .purple {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-main .buss-category .cards .card h2 {
+main .buss-category .cards a .card h2 {
   max-width: 673px;
   color: var(--Black, #232536);
   /* Heading H2 */
@@ -503,7 +507,7 @@ main .buss-category .cards .card h2 {
   letter-spacing: -2px;
   padding: 20px 0 16px;
 }
-main .buss-category .cards .card p {
+main .buss-category .cards a .card p {
   max-width: 696px;
   color: var(--Medium-grey, #6d6e76);
   /* Body 1 */
